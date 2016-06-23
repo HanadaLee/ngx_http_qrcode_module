@@ -1,3 +1,6 @@
+
+# move to [nginx-lover/ngx_http_qrcode_module](https://github.com/nginx-lover/ngx_http_qrcode_module)
+
 ngx_http_qrcode_module
 ======================
 ![Branch master](https://img.shields.io/badge/branch-master-brightgreen.svg?style=flat-square)[![Build](https://api.travis-ci.org/detailyang/ngx_http_qrcode_module.svg)](https://travis-ci.org/detailyang/ngx_http_qrcode_module)[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/detailyang/ngx_http_qrcode_module/master/LICENSE)[![release](https://img.shields.io/github/release/detailyang/ngx_http_qrcode_module.svg)](https://github.com/detailyang/ngx_http_qrcode_module/releases)
