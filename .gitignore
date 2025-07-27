@@ -15,3 +15,7 @@
 *.exe
 *.out
 *.app
+objs
+t/servroot
+autotest
+autoconf.err
