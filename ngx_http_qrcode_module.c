@@ -191,11 +191,9 @@ ngx_http_qrcode_create_loc_conf(ngx_conf_t *cf)
 	qlcf->fg_color[0] 	= NGX_CONF_UNSET_UINT;
 	qlcf->fg_color[1] 	= NGX_CONF_UNSET_UINT;
 	qlcf->fg_color[2] 	= NGX_CONF_UNSET_UINT;
-	qlcf->fg_color[3] 	= NGX_CONF_UNSET_UINT;
 	qlcf->bg_color[0] 	= NGX_CONF_UNSET_UINT;
 	qlcf->bg_color[1] 	= NGX_CONF_UNSET_UINT;
 	qlcf->bg_color[2] 	= NGX_CONF_UNSET_UINT;
-	qlcf->bg_color[3] 	= NGX_CONF_UNSET_UINT;
 	qlcf->level			= NGX_CONF_UNSET_UINT;
 	qlcf->hint			= NGX_CONF_UNSET_UINT;
 	qlcf->size			= NGX_CONF_UNSET_UINT;
@@ -216,11 +214,9 @@ ngx_http_qrcode_merge_loc_conf(ngx_conf_t* cf, void* parent, void* child) {
 	ngx_conf_merge_value(qlcf->fg_color[0], pre->fg_color[0], 0);
 	ngx_conf_merge_value(qlcf->fg_color[1], pre->fg_color[0], 0);
 	ngx_conf_merge_value(qlcf->fg_color[2], pre->fg_color[0], 0);
-	ngx_conf_merge_value(qlcf->fg_color[3], pre->fg_color[0], 0);
 	ngx_conf_merge_value(qlcf->bg_color[0], pre->bg_color[0], 255);
 	ngx_conf_merge_value(qlcf->bg_color[1], pre->bg_color[0], 255);
 	ngx_conf_merge_value(qlcf->bg_color[2], pre->bg_color[0], 255);
-	ngx_conf_merge_value(qlcf->bg_color[3], pre->bg_color[0], 255);
 	ngx_conf_merge_value(qlcf->level, pre->level, QR_ECLEVEL_L);
 	ngx_conf_merge_value(qlcf->hint, pre->hint, QR_MODE_8);
 	ngx_conf_merge_value(qlcf->size, pre->size, 4);
